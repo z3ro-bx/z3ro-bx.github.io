@@ -1,4 +1,55 @@
-.App {
+.container-fluid, .card{
+  background-color: #212121;
+}
+
+.card{
+  border-color: #eee;
+  height: auto;
+}
+
+.text{
+  color:#fff;
+  text-decoration: none;
+  text-align: justify;
+}
+
+.nav-bar{
+  list-style-type: none;
+}
+
+.icon{
+  background-color: #fff;
+}
+
+.mt-8{
+  margin-top: 5rem!important;
+}
+
+.ms-8{
+  margin-left: 5rem!important;
+}
+
+.abt-container{
+  border: 1px solid #fff;
+  border-radius: 0.375rem;  
+}
+
+.title{
+  font-size: 1.5rem;
+}
+
+.abt-list{
+  list-style-type: none;
+}
+
+.ct-info{
+  text-align: center;
+}
+
+.prc1{
+  min-height: 100vh;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +86,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
